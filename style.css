@@ -8,16 +8,11 @@ body{
 .container{
     background-color:white;
     display:flex;
-    /* margin: 25% 25% 25% 25%; */
-    justify-content: center;
-    /* height: 50%;
-    width: 50%; */
+    width: 800px;
 }
 .info{
-    border: 2px solid black;
     width: 50%;
     color: white;
-    /* background-color: black; */
     background-image: url(login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,20 +20,62 @@ body{
     text-align: center;
 }
 h3{
-    font-weight:700;
+    font-size: 30px;
+    font-weight:900;
     padding: 10px;
     text-align: center;
     margin-top: 40%;
 }
 p{
     margin-bottom: 50%;
-    font-size: 13px;
+    font-size: 20px;
     padding: 15px;
+    
 }
 .form{
-    /* border: 2px solid black; */
     width: 50%;
     margin: 10px;
-    text-align: center;
+    padding-top: 7%;
 }
-
+h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+input{
+    display: block;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 70%;
+    height: 7%;
+    border-radius: 10px;
+    font-size: 16px;
+}
+h6{
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 12%;
+    font-size: 14px;
+}
+button{
+    width: 75%;
+    height: 9%;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+h5{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+a{
+    font-size: 16px;
+}
