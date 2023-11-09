@@ -1,23 +1,36 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
-body{
-    background-color:bisque;
+body,html{
+    height: 100%;
+    background-image: url(img/bg.JPG);
+    background-size: cover;
+    height: 100%; 
+    display: flex;
+    width: 100%;
 }
 .container{
     background-color:white;
     display:flex;
     width: 800px;
+    border: 0;
+    border-radius: 20px;
+    margin: auto;
+    /* align-items: center; */
+    justify-content: center;
 }
 .info{
     width: 50%;
     color: white;
-    background-image: url(login.jpg);
+    background-image: url(img/login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 5px; 
     text-align: center;
+    border-radius: 20px;
+    border: 0;
 }
 h3{
     font-size: 30px;
@@ -41,6 +54,7 @@ h2{
     padding: 10px;
     text-align: center;
     font-size: 40px;
+    color: turquoise;
 }
 input{
     display: block;
@@ -52,9 +66,10 @@ input{
     height: 7%;
     border-radius: 10px;
     font-size: 16px;
+    border-color: turquoise;
 }
 h6{
-    margin-top: 15px;
+    margin-top: 8px;
     text-align: right;
     margin-right: 12%;
     font-size: 14px;
@@ -69,13 +84,22 @@ button{
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
+    background-color: turquoise;
+    border: 0;
+    color: white;
+    cursor: pointer;
 }
+
 h5{
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+    padding: 3px;
 }
 a{
+    text-decoration: none;
     font-size: 16px;
+    color: turquoise;
+    font-size: 18px;
 }
